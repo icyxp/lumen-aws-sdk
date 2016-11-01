@@ -31,7 +31,7 @@ Find the `providers` key in your `bootstarp/app.php` and register the AWS Servic
 ```php
     $app->register(Icyboy\Lumen\AwsServiceProvider::class);
     
-    class_alias('Icyboy\Lumen\AwsFacade', 'AWS');
+    class_alias('Icyboy\Lumen\AwsFacade', 'Aws');
 ```
 
 
