@@ -1,4 +1,4 @@
-<?php namespace Aws\Laravel;
+<?php namespace Icyboy\Lumen-Aws;
 
 use Aws\Sdk;
 use Illuminate\Support\ServiceProvider;

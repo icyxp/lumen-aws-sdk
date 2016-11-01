@@ -1,6 +1,6 @@
 <?php
 
-use Icyboy\Lumen\AwsServiceProvider;
+use Icyboy\Lumen-Aws\AwsServiceProvider;
 
 return [
 

@@ -1,4 +1,4 @@
-<?php namespace Icyboy\Lumen;
+<?php namespace Icyboy\Lumen-Aws;
 
 use Illuminate\Support\Facades\Facade;
 
