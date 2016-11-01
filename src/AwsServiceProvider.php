@@ -1,4 +1,4 @@
-<?php namespace Icyboy\Lumen-Aws;
+<?php namespace Icyboy\LumenAws;
 
 use Aws\Sdk;
 use Illuminate\Support\ServiceProvider;

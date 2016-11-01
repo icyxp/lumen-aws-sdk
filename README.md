@@ -29,9 +29,9 @@ To use the AWS Service Provider, you must register the provider when bootstrappi
 Find the `providers` key in your `bootstarp/app.php` and register the AWS Service Provider.
 
 ```php
-    $app->register(Icyboy\Lumen-Aws\AwsServiceProvider::class);
+    $app->register(Icyboy\LumenAws\AwsServiceProvider::class);
     
-    class_alias('Icyboy\Lumen-Aws\AwsFacade', 'Aws');
+    class_alias('Icyboy\LumenAws\AwsFacade', 'Aws');
 ```
 
 
