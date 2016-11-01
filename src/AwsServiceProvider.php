@@ -43,7 +43,7 @@ class AwsServiceProvider extends ServiceProvider
             unset($awsConfig['endpoint']);
         }
         
-        $this->app->singleton('aws', function ($awsConfig) {
+        $this->app->singleton('aws', function () use ($awsConfig) {
             return new Sdk($awsConfig);
         });
 
